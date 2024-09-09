@@ -51,3 +51,61 @@ main:has(.back-link) {
 .gallery-item img:hover {
   transform: scale(1.05);
 }
+
+.feedback-form {
+  max-width: 408px;
+  padding: 24px;
+  margin: auto;
+}
+
+label {
+  margin-bottom: 8px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #2E2F42;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+}
+
+input:hover,
+textarea:hover {
+  border: 1px solid #000000;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid #808080;
+}
+
+button {
+  background-color: #4E75FF;
+  color: #fff;
+  border: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #6C8CFF;
+}
